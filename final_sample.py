@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 app = dash.Dash()
 df=pd.read_csv("/Users/viraj/Desktop/Avant/App/companylist.csv")
-newsapi = NewsApiClient(api_key='19566a6cc96747eeadf90d82c464467d')
+newsapi = NewsApiClient(api_key='19566a6cc96747eeadf90d82c464489d')
 
 
 companies=df[(df['Sector']=='Technology') & (df['MarketCap']>='$1.00B')]['Symbol']
