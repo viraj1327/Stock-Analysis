@@ -11,4 +11,4 @@ Dash app: https://stockandsentimentanalysis.herokuapp.com/
 ## Sentiment Analysis on News:
 ![](Images/2.png)
 
-
+# Project Status : Active
